@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class num_guesser {
     public static void main(String[] args) {
-        final int ANSWER = 57; // プログラマが設定した2桁の正の整数
+        final int ANSWER = 10 + (int)(Math.random() * 90); // 10〜99の乱数
         final int MAX_TRIES = 5;
         Scanner scanner = new Scanner(System.in);
 
