@@ -1,4 +1,4 @@
-package hello;
+package num_guess;
 import java.util.Scanner;
 
 public class num_guesser {
