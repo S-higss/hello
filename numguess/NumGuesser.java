@@ -1,7 +1,7 @@
-package num_guess;
+package numguess;
 import java.util.Scanner;
 
-public class num_guesser {
+public class NumGuesser {
     public static void main(String[] args) {
         final int ANSWER = 10 + (int)(Math.random() * 90); // 10〜99の乱数
         final int MAX_TRIES = 5;
